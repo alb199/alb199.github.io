@@ -1,7 +1,17 @@
 img {
     width: 200px;
     opacity: 0.6;
-
+}
+body {
+    text-align: center;
+    font-family: "Arial";
+    color: SkyBlue;
+}
+body {
+        background-image: url("http://data2.1freewallpapers.com/download/snow-white-background-2048x1152.jpg");
+        
+} 
+img {
             position: absolute;
             animation: example 10s infinite;
           }
@@ -35,11 +45,3 @@ img {
               transform: translateY( calc(100vh - 200px) );
             }
           }
-body {
-    text-align: center;
-    font-family: "Arial";
-    color: SkyBlue;
-}
-body {
-        background-image: url("http://data2.1freewallpapers.com/download/snow-white-background-2048x1152.jpg");
-        
