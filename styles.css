@@ -11,3 +11,37 @@ body {
         background-image: url("http://data2.1freewallpapers.com/download/snow-white-background-2048x1152.jpg");
         
 } 
+img {
+            position: absolute;
+            animation: example 10s infinite;
+          }
+          
+          body {
+            margin: 0;
+          }
+
+          img, div {
+            width: 200px;
+            height: 200px;
+          }
+
+          .x {
+            animation: x 13s linear infinite alternate;
+          }
+
+          .y {
+            animation: y 7s linear infinite alternate;
+          }
+
+          @keyframes x {
+            100% {
+              transform: translateX( calc(100vw - 200px) );
+            }
+          }
+
+          @keyframes y {
+            
+            100% {
+              transform: translateY( calc(100vh - 200px) );
+            }
+          }
